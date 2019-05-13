@@ -1,0 +1,434 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(167, 221, 246);
+}
+
+
+.container {
+    height: 10%;
+    width: 100%;
+    background-color: rgb(35, 162, 221);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.container2 {
+    height: 10%;
+    width: 100%;
+    background-color: rgb(176, 129, 207);
+    display: flex;
+}
+.container3 {
+    height: 5%;
+    width: 100%;
+    background-color: rgb(90, 84, 173);
+    display: flex;
+    justify-content: flex-end;
+}
+.container6 {
+  height: 5%;
+  width: 100%;
+  background-color: rgb(130, 37, 167);
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+}
+.container7 {
+  height: 5%;
+  width: 100%;
+  background-color: rgb(226, 84, 108);
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+}
+.container8 {
+  height: 5%;
+  width: 100%;
+  background-color: rgb(94, 233, 152);
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+}
+.container9 {
+  height: 5%;
+  width: 100%;
+  background-color: rgb(224, 233, 94);
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+}
+.container10 {
+  height: 5%;
+  width: 100%;
+  background-color: rgb(90, 76, 116);
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+}
+.container11 {
+  height: 5%;
+  width: 100%;
+  background-color: rgb(233, 173, 94);
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+}
+.container12 {
+  height: 5%;
+  width: 100%;
+  background-color: rgb(124, 14, 14);
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+}
+.container13 {
+  height: 5%;
+  width: 100%;
+  background-color: rgb(130, 37, 167);
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+}
+.container14 {
+  height: 5%;
+  width: 100%;
+  background-color: rgb(226, 84, 108);
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+}
+.container15 {
+  height: 5%;
+  width: 100%;
+  background-color: rgb(94, 233, 152);
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+}
+.container16 {
+  height: 5%;
+  width: 100%;
+  background-color: rgb(224, 233, 94);
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+}
+.container17 {
+  height: 5%;
+  width: 100%;
+  background-color: rgb(90, 76, 116);
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+}
+.container18 {
+  height: 5%;
+  width: 100%;
+  background-color: rgb(233, 173, 94);
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+}
+.container19 {
+  height: 5%;
+  width: 100%;
+  background-color: rgb(124, 14, 14);
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+}
+.container20 {
+  height: 5%;
+  width: 100%;
+  background-color: rgb(224, 233, 94);
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+}
+.container21 {
+  height: 5%;
+  width: 100%;
+  background-color: rgb(90, 76, 116);
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+}
+.container22 {
+  height: 5%;
+  width: 100%;
+  background-color: rgb(233, 173, 94);
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+}
+.container23 {
+  height: 5%;
+  width: 100%;
+  background-color: rgb(124, 14, 14);
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+}
+  
+#wrapper {
+    overflow: auto;
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.container4 {
+    height:75%;
+    width:50%;
+    display: flex;
+    word-wrap: break-word;
+}
+.container5 {
+    height:75%;
+    width:50%;
+    display: flex;
+    word-wrap: break-word;
+}
+
+#bounceInDown {
+  width: 99%;
+    animation-name: bounceInLeft;
+    animation-duration:2s ;
+    font-size: 500%;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    margin:0;
+    padding-left: 1%;
+
+}
+
+@keyframes bounceInDown {
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  
+    0% {
+      opacity: 0;
+      transform: translate3d(0, -3000px, 0);
+    }
+  
+    60% {
+      opacity: 1;
+      transform: translate3d(0, 25px, 0);
+    }
+  
+    75% {
+      transform: translate3d(0, -10px, 0);
+    }
+  
+    90% {
+      transform: translate3d(0, 5px, 0);
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  #slide1 {
+    width: 99%;
+    animation-name: bounceInLeft;
+    animation-duration:2s;
+    font-size: 500%;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    margin:0;
+    padding-left: 1%;
+    align-items: center;
+    justify-content: left;
+  }
+  #slide3 {
+    width: 99%;
+    animation-name: bounceInLeft;
+    animation-duration:2s;
+    font-size: 100%;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    margin:0;
+    padding-right: 1%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+
+  }
+  #info2 {
+    width: 99%;
+    animation-name: bounceInLeft;
+    animation-duration:2s;
+    font-size: 100%;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    margin:0;
+    padding-right: 1%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+
+  }
+#slide5 {
+  height: inherit;
+  width: 100%;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    font-size: 150%;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    margin:10px;
+
+}
+#slide6 {
+  height: inherit;
+  width: 100%;
+    animation-name: fadeIn1;
+    animation-duration: 2s;
+    font-size: 150%;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    margin:10px;
+    justify-content: flex-end;
+  display: flex;
+}
+#slide8 {
+  height: inherit;
+  width: 100%;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  font-size: 150%;
+  color: aliceblue;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+  margin:10px;
+  justify-content: flex-end;
+  display: flex;
+}
+#slide9{
+  height: inherit;
+  width: 100%;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  font-size: 150%;
+  color: aliceblue;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+  margin:10px;
+  justify-content: flex-end;
+  display: flex;
+}
+#slide10 {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  font-size: 150%;
+  color: aliceblue;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+  margin:0;
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+
+}
+#slide12 {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  font-size: 150%;
+  color: aliceblue;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+  margin:0;
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+
+}
+#fadeOut1 {
+  height: inherit;
+  width: 100%;
+  animation-name: fadeOut;
+  animation-duration: 2s;
+  font-size: 150%;
+  color: aliceblue;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+  margin:10px;
+  justify-content: flex-end;
+  display: flex;
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeIn1 {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+@keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+    }
+  }
+
+@keyframes bounceInLeft {
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  
+    0% {
+      opacity: 0;
+      transform: translate3d(-3000px, 0, 0);
+    }
+  
+    60% {
+      opacity: 1;
+      transform: translate3d(25px, 0, 0);
+    }
+  
+    75% {
+      transform: translate3d(-10px, 0, 0);
+    }
+  
+    90% {
+      transform: translate3d(5px, 0, 0);
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
